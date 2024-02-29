@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
+* {
+  padding:  5% 3%;
+ 
+  
+}
+
+
+ body{
+  font-weight:70;
+  background-color: black;
+  color: yellow ;
+}
+
+.cabecalho{
+  padding: 2%;
+  width: 50%;
+}
+
+.cabecalho__menu__botao{
+  color: white;
+  width: 118px;
+  font-size: 2,6rem;
+  text-decoration: none;
+  text-align:  center;
+  padding: 2px 40px;
+  font-family: "roboto condensed",sans-serif;
+}
+.organizar__destaque{
+  color: white;
+} 
+
+.dividir{
+  width: 70%;
+  font-family: "roboto condensed", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: none;
+}
+.imagem{
+  width: 309px;
+  height: 412px;
+}
+
+.botao{
+  font-family: "protest riot", sans-serif;
+  width :118px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 14px;
+  font-size: 1,3rem;
+  
+}
+
+.subtitulo{
+  font-family: "roboto condensed", sans-serif;
+  color: white;
+  font-weight: 250px;
+  font-size: 1,3rem;
+}
+.botao__cor{
+  text-decoration: none;
+ align-items: center;
+ color: white;
+}
+
+.organizar{
+  width: 70%;
+  gap: 80px;
+  padding: 10% 15%;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  
+}
+
+.botao:hover{
+  background: dimgray;
+}
+
+.rodape{
+  background: black;
+  color: dimgray;
+  font-size: 1,2rem;
+  font-weight: 150px;
+  padding: 5px;
+  text-align: center;
+  font-family: "sixtyfour" ,sans-serif;
+}
+
+.titulo{
+  width:auto;
+  font-family: "roboto condensed", sans-serif;
+  font-size: 1,3rem; 
+  color: white;
+}
+
+.paragrafo{
+  width: auto;
+  font-size: 1rem;
+  font-family: "roboto condensed", sans-serif;
+  color: yellow;
+}
+
+@media (max-width: 853px){
+ .organizar {
+  width: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 80px;
+   padding: 3%;
+ }
+
+ 
+ 
+ .imagem {
+   margin-left: 20px;
+   /* Ajuste a margem conforme necessário */
+ }
+}
